@@ -127,6 +127,18 @@ section{
     border-radius: 30px;
 
 }
+
+.btn_enviar{
+    display: inline-block;
+    background-color: var(--color__primario);
+    color: var(--color__secundario);
+    text-decoration: none;
+    font-weight: 70px;
+    padding: 16px 30px;
+    border-radius: 30px;
+    width: 300px;
+}
+
 .btn--negro{
     background-color: var(--color__secundario);
     color: var(--color__blanco);
@@ -149,6 +161,8 @@ section{
 .text-center{
     text-align: center;
 }
+
+
 
 .cards{
     display: flex;
@@ -204,25 +218,25 @@ section{
 
 .image-container {
   display: flex;
-  flex-wrap: wrap; /* Permite que las imágenes se ajusten a varias filas */
-  justify-content: center; /* Centra las imágenes horizontalmente */
-  gap: 15px; /* Espacio entre las imágenes */
-  padding: 20px; /* Espaciado interno del contenedor */
-  background-color: #2c2c2c; /* Fondo oscuro */
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 15px; 
+  padding: 20px; 
+  background-color: #2c2c2c; 
 }
 
-/* Estilo para cada contenedor de imagen */
+
 .image {
-  flex: 1 1 calc(33.33% - 30px); /* Hace que cada imagen ocupe un tercio del ancho */
-  max-width: 300px; /* Restringe el tamaño máximo */
-  text-align: center; /* Centra las imágenes dentro de su div */
+  flex: 1 1 calc(33.33% - 30px); 
+  max-width: 300px; 
+  text-align: center; 
 }
 
-/* Estilo para las imágenes */
+
 .img {
-  width: 100%; /* Hace que las imágenes sean responsivas */
-  border-radius: 10px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+  width: 100%; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -232,6 +246,28 @@ section{
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
 }
 
+/*Contactenos*/
+
+.Contactenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.inputs{
+    justify-content: left;
+    height: 30px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.textarea{
+    justify-content: left;
+    width: 300px;
+    border-radius: 6px;
+}
 
 
 
